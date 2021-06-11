@@ -1,0 +1,39 @@
+.depart_name {
+    border: 1px solid #ddd;
+    padding: 30px 0;
+    margin: 15px 0;
+    -webkit-transition: all 0.25s ease-in;
+    -o-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+}
+
+.depart_name:hover {
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.2);
+}
+
+.depart_name a {
+    color: #2C3E50;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+
+
+/* responsive css */
+
+@media (max-width: 575px) {}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .depart_name {
+        padding: 10px 0;
+    }
+    /*    end of video class part */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .depart_name a {
+        font-size: 18px;
+    }
+    /*    end of video class part */
+}

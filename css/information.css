@@ -1,0 +1,155 @@
+#news_part{
+    padding: 80px 0;
+}
+.news_inner_box{
+    border: 1px solid #ddd;
+    padding: 30px;
+    box-sizing: border-box;
+    height: 800px;
+    overflow: scroll;
+}
+.news_box{
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+.news_box:hover{
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.2);
+}
+.news_box_headding h3{
+    font-size: 26px;
+    color: #2C3E50;
+    -webkit-transition: all 0.25s ease-out;
+	-o-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}
+.news_box:hover .news_box_headding h3{
+    color: #FC4349;
+}
+.news_box_details p{
+    color: #2C3E50;
+}
+.news_read_more a {
+	color: #2c3e50;
+	font-size: 20px;
+	text-decoration: underline !important;
+	-webkit-transition: all 0.25s ease-out;
+	-o-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}
+.news_read_more a:hover {
+	color: #FC4349;
+}
+.notic{
+    border: 1px solid #ddd;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.notic:hover{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+.notic_headding h4{
+    color: #fff;
+    background-color: #FC4349;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 5px 0;
+    text-transform: capitalize;
+}
+.notic_items ul li{
+    margin: 10px 0;
+}
+.notic_items ul li a{
+    color: #2C3E50;
+    font-size: 16px;
+    text-transform: capitalize;
+    -webkit-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+.notic_items ul li a:hover{
+    color: #FC4349;
+}
+.list_items{
+    height: 300px;
+    overflow: scroll;
+}
+/* end of news part */
+
+/* job page css start */
+
+.job_dateline h5{
+    color: #2C3E50;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 25px;
+}
+.job_dateline h5 i{
+    margin-right: 8px;
+}
+.job_website{
+    height: auto;
+    overflow: inherit;
+}
+
+/* job page css end */
+
+
+/* responsive css */
+@media (max-width: 575px) {
+    #news_part{
+        padding: 30px 0;
+    }
+    .news_box_headding h3{
+        font-size: 18px;
+    }
+    .news_box_details p{
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .news_read_more a{
+        font-size: 16px;
+    }
+    .news_inner_box{
+        height: 580px;
+    }
+    .news_box{
+        padding: 0;
+    }
+    .news_box:hover {
+	 box-shadow: 0 0 0px #fff; 
+    }
+/*    end of news part */
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .news_box{
+        padding: 0;
+    }
+    .news_box:hover {
+	 box-shadow: 0 0 0px #fff; 
+    }
+    .news_box_headding h3{
+        font-size: 22px;
+    }
+    .news_box_details p{
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .news_read_more a{
+        font-size: 18px;
+    }
+    .news_inner{
+        padding: 0;
+    }
+    .notic_items ul li a{
+        font-size: 14px;
+    }
+    .notic_headding h4{
+        font-size: 18px;
+    }
+/*    end of news part */
+}
